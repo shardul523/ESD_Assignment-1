@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Website</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="bg-transparent w-100 position-absolute z-2">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand fs-2 text-danger" href="#">
+                    <strong>🍴 Yummy</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav text-uppercase fw-bold fs-5 gap-5">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Cart</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section with Company Description -->
+        <section class="hero-section d-flex justify-content-center" id="about">
+            <div class="hero-overlay"></div>
+            <div class="container position-relative d-flex flex-column justify-content-center align-items-start">
+                <div class="w-33 text-center">
+                    <h1 class="fs-2 mb-4">It's not just food it's an <br> Experience</h1>
+                    <p class="lead">
+                        The best delicious food that meets your needs, order now
+                    </p>
+                    <button class="btn btn-danger btn-lg">Order Now</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section class="py-5" id="products">
+            <div class="container">
+                <h2 class="text-center fw-bold mb-5">Order Fresh Food</h2>
+                <div class="row g-4">
+                    <!-- Product Card 1 -->
+                    <div class="col-md-3">
+                        <div class="card product-card h-100">
+                            <img src="menu_items/dosa.webp" class="card-img-top" alt="Masala Dosa">
+                            <div class="card-body bg-warning">
+                                <h5 class="card-title fw-bold">Masala Dosa</h5>
+                                <p class="fw-bold">₹ 60</p>
+                                <button class="btn btn-danger">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Product Card 2 -->
+                    <div class="col-md-3">
+                        <div class="card product-card h-100">
+                            <img src="menu_items/burger-combo.jpeg" class="card-img-top" alt="Burger Combo">
+                            <div class="card-body bg-warning">
+                                <h5 class="card-title fw-bold">Burger Combo</h5>
+                                <p class="fw-bold">₹ 359</p>
+                                <button class="btn btn-danger">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Product Card 3 -->
+                    <div class="col-md-3">
+                        <div class="card product-card h-100">
+                            <img src="menu_items/Chicken-Manchurian-1.png" class="card-img-top" alt="Manchurian">
+                            <div class="card-body bg-warning">
+                                <h5 class="card-title fw-bold"> Manchurian</h5>
+                                <p class="fw-bold">₹ 100</p>
+                                <button class="btn btn-danger">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card product-card h-100">
+                            <img src="menu_items/samosa.webp" class="card-img-top" alt="Veg Samosa">
+                            <div class="card-body bg-warning">
+                                <h5 class="card-title fw-bold"> Veg Samosa</h5>
+                                <p class="fw-bold">₹ 60</p>
+                                <button class="btn btn-danger">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4 mt-5">
+                    <div class="col-md-3">
+                        <div class="card product-card h-100">
+                            <img src="menu_items/idli.jpg" class="card-img-top" alt="Idli">
+                            <div class="card-body bg-warning">
+                                <h5 class="card-title fw-bold">Steamed Idli</h5>
+                                <p class="fw-bold">₹ 40</p>
+                                <button class="btn btn-danger">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card product-card h-100">
+                            <img src="menu_items/maggi.jpeg" class="card-img-top" alt="Hakka Noodles">
+                            <div class="card-body bg-warning">
+                                <h5 class="card-title fw-bold">Hakka Noodles</h5>
+                                <p class="fw-bold">₹ 140</p>
+                                <button class="btn btn-danger">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card product-card h-100">
+                            <img src="menu_items/pizza.avif" class="card-img-top " alt="Special Pizza">
+                            <div class="card-body bg-warning">
+                                <h5 class="card-title fw-bold"> Special Pizza</h5>
+                                <p class="fw-bold">₹ 229</p>
+                                <button class="btn btn-danger">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card product-card h-100">
+                            <img src="menu_items/Solognese.avif" class="card-img-top" alt="Solognese">
+                            <div class="card-body bg-warning">
+                                <h5 class="card-title fw-bold"> Bolognese</h5>
+                                <p class="fw-bold">₹ 229</p>
+                                <button class="btn btn-danger">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center bg-warning">
+        <div class="container">
+            <p class="mb-0 text-black">Built by <strong>Shardul Sisodiya</strong></p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
