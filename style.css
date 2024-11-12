@@ -38,3 +38,14 @@ footer {
     color: white;
     padding: 20px 0;
 }
+
+
+/* Sign Up Page Styles */
+
+.card-container {
+    min-height: 100vh;
+}
+
+.card {
+    width: max(25%, 250px);
+}
